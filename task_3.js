@@ -7,3 +7,10 @@ var numbers = ['Tom', 'Tim', 'Tin', 'Tik']
 Output:
 'TomTimTinTik'
  */
+
+let together = "";
+var numbers = ["Tom", "Tim", "Tin", "Tik"];
+for (number of numbers) {
+  together = together + number;
+}
+console.log(together);

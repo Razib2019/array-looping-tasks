@@ -8,3 +8,8 @@ const statement = 'I am a hard working person'
 Output:
 'person working hard a am I'
  */
+
+const statement = "I am a hard working person";
+let separateStatement = statement.split(" ");
+let reverse = separateStatement.reverse();
+console.log(reverse.join(" "));
